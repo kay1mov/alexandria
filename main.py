@@ -12,14 +12,15 @@ async def push(request: Request):
     client_ip = request.client.host
     print(client_ip)
     full_data = {
-        "data": time.time(),
-        "client_ip": client_ip
+        "date": time.time(),
+        "client_ip": client_ip,
+        "data": data
     }
 
     with open(storage_path + str(time.time()), "wb") as f:
         json.dump(full_data, f, ensure_ascii=False, indent=4)
 
-    return {"ok": True, "data": full_data}
+    return full_data
 
 
 @app.get("/ping")
