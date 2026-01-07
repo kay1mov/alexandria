@@ -19,7 +19,7 @@ async def push(request: Request):
     with open(storage_path + str(time.time()), "wb") as f:
         json.dump(full_data, f, ensure_ascii=False, indent=4)
 
-    return {"ok": True}
+    return {"ok": True, "data": full_data}
 
 
 @app.get("/ping")
