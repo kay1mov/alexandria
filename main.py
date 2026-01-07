@@ -17,7 +17,7 @@ async def push(request: Request):
         "data": data
     }
 
-    with open(storage_path + str(time.time()), "wb") as f:
+    with open(storage_path + str(time.time()) + ".json", "w", encoding="utf-8") as f:
         json.dump(full_data, f, ensure_ascii=False, indent=4)
 
     return full_data
