@@ -1,8 +1,2 @@
-import requests
-
-response = {
-    "asd": 123
-}
-
-r = requests.post("https://alexandriatorch.onrender.com/push", json=response)
-print(r.json())
+def request(flow):
+    print(flow.request.method, flow.request.pretty_url)
