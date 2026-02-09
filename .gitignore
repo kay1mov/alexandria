@@ -4,3 +4,6 @@
 .idea/*
 .idea\*
 .idea
+client/ffmpeg/bin/ffmpeg.exe
+client/ffmpeg/bin/ffplay.exe
+client/ffmpeg/bin/ffprobe.exe
