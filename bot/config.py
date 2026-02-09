@@ -7,7 +7,7 @@ white_list_id = {
     6494875059: "Farzona"
 }
 
-special_message = f'No need to explain how “cool" you are just because you’re on the whitelist and blah-blah-blah.\nEnjoy 🎯\n\n(Recently updated ⚠️️ - There may be errors/bugs)'
+special_message = f'No need to explain how “cool" you are just because you’re on the whitelist and blah-blah-blah.\nEnjoy 🎯\n\nType "/info - for information"'
 whitelist = True
 
 help_message = f'''
