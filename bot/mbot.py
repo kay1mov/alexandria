@@ -81,7 +81,7 @@ def info_command(message):
         return
 
     t = help_message
-    t += f"\n\nSource code of bot (for geniuses 😈): \nhttps://github.com/kay1mov/alexandria"
+    t += f"\n\nSource code of bot (for geniuses 😈): \https://github.com/kay1mov/alexandria/tree/main/bot"
     bot.send_message(message.chat.id, t)
 
 @bot.message_handler(commands=['whitelist'])
