@@ -82,6 +82,7 @@ def info_command(message):
 
     t = help_message
     t += f"\n\nSource code of bot: \nhttps://github.com/kay1mov/alexandria/tree/main/bot"
+    bot.send_message(message.chat.id, t)
 
 @bot.message_handler(commands=['whitelist'])
 def whitelist_command(message):
