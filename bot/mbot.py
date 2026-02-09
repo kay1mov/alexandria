@@ -74,17 +74,14 @@ def start_command(message):
 
     bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
 
-@bot.message_handler(commands=['help'])
-def help_command(message):
+def info_command(message):
 
-    user = message.from_user
-
-    print(f"{user.first_name} (@{user.username}) (#{user.id}) wrote: {message.text}")
     if not is_authorized(message.from_user):
         return
-    bot.send_message(message.chat.id, help_message)
 
-
+    t = help_message
+    t += f"\n\nSource code of bot: \nhttps://github.com/kay1mov/alexandria/tree/main/bot"
+    
 @bot.message_handler(commands=['whitelist'])
 def whitelist_command(message):
 
