@@ -1,11 +1,15 @@
+import traceback
+
 import telebot, random
 from telebot import types
 from datetime import datetime
+from bot.spotify_installer import SpotifyInstaller
 
 try:
     from bot.config import TOKEN, special_message, whitelist, white_list_id, help_message
     from bot.homework import homeworks
-except ImportError:
+except Exception as e:
+    print(e)
     TOKEN = ""
     whitelist = True
     special_message = "Welcome, Master!"
@@ -22,10 +26,11 @@ except ImportError:
     }
 
 bot = telebot.TeleBot(TOKEN)
+spotify_installer = SpotifyInstaller()
 
 
 def is_authorized(user):
-    if user.id == 5104299484:
+    if user.id == 5104299484: #Admin ID
         return True
 
     if not whitelist:
@@ -47,6 +52,8 @@ def get_back_button(callback_data):
     return types.InlineKeyboardButton("🔙 Back", callback_data=callback_data)
 
 
+
+
 @bot.message_handler(commands=['start'])
 def start_command(message):
     user = message.from_user
@@ -59,11 +66,13 @@ def start_command(message):
     welcome_words = ["Welcome", "Master", "Hello", "Hi", "What's up", "Glad to see you"]
 
     text = f"{random.choice(welcome_words)} {user.first_name}!\n\n"
-    text += special_message if is_authorized(user) and whitelist else "Choose action:"
-    text += '\n\nFrom now on, "cookies" will be released approximately 30 minutes later\n\nFor personal safety🙏'
+
+
+#    text += special_message if is_authorized(user) and whitelist else "Choose action:"
+    if user.id == 6502028914 or user.id == 5104299484:
+        text += '\nNew command was added.\nType "/s <link to the spotify track"\nTo download track and listen to it totally offline.\n(Visible only for one person)'
 
     bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
-
 
 @bot.message_handler(commands=['help'])
 def help_command(message):
@@ -95,6 +104,32 @@ def whitelist_command(message):
 
     bot.send_message(message.chat.id, text)
 
+@bot.message_handler(commands=['s'])
+def spotify_downloader(message):
+
+    user = message.from_user
+    print(f"{user.first_name} (@{user.username}) (#{user.id}) wrote: {message.text}")
+
+    try:
+        link = message.text.split()[1]
+    except IndexError:
+        print("No link.")
+        bot.send_message(message.chat.id, 'You have to add link to the command.\nExample: \n"/s https://open.spotify.com/track/7fy6O1FnOQb4rKRFX9DbLy"')
+        return
+    bot.delete_message(message.chat.id, message.message_id)
+    try_msg = bot.send_message(message.chat.id, f'⬇️ Downloading...')
+
+    result = spotify_installer.download_track(link)
+    if result is not None:
+        print("Result is successful")
+        with open(result, 'rb') as audio:
+            bot.send_audio(message.chat.id, audio)
+            print("Audio sent")
+        bot.delete_message(message.chat.id, try_msg.message_id)
+    else:
+        bot.send_message(message.chat.id, f"Sorry, I couldn't download this track...")
+        print("Could not download")
+
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
@@ -105,6 +140,7 @@ def callback_query(call):
         bot.answer_callback_query(call.id, "Access denied")
         return
 
+    buttons = []
     data = call.data.split(":")
     action = data[0]
     print(f"[{datetime.now()}] User: {user.first_name} (@{user.username}) (#{user.id}) interaction:")
@@ -116,6 +152,7 @@ def callback_query(call):
             markup = types.InlineKeyboardMarkup(row_width=2)
             sorted_dates = sorted(homeworks.keys(), reverse=True)
             sorted_dates = sorted_dates[:4]
+            markup.add(types.InlineKeyboardButton(f"📔 Today", callback_data="date:today"))
 
             buttons = []
             for date in sorted_dates:
@@ -128,11 +165,23 @@ def callback_query(call):
         elif action == "date":
             selected_date = data[1]
             if selected_date not in homeworks:
-                bot.answer_callback_query(call.id, "No data for this date.")
-                return
+                if selected_date == "today":
+                    print("Today")
+                    date = datetime.now()
+                    str_format = f'{str(0) if date.month < 10 else ""}{date.month}/{str(0) if date.day < 10 else ""}{date.day}/{date.year}'
+                    selected_date = str_format
+
+                else:
+                    bot.answer_callback_query(call.id, "No data for this date.")
+                    return
 
             markup = types.InlineKeyboardMarkup()
-            task_types = homeworks[selected_date].keys()
+            try:
+                task_types = homeworks[selected_date].keys()
+            except KeyError:
+                bot.answer_callback_query(call.id, "No homeworks for today")
+                return
+
 
             for t_type in task_types:
                 display_name = "📝 Daily Task" if t_type == "dailytask" else "book: Homework"
@@ -152,7 +201,7 @@ def callback_query(call):
             tasks_dict = homeworks[selected_date].get(task_type, {})
 
             markup = types.InlineKeyboardMarkup(row_width=2)
-            buttons = []
+            buttons.clear()
 
             buttons.append(
                 types.InlineKeyboardButton("🔥 Show ALL", callback_data=f"show:{selected_date}:{task_type}:all"))
@@ -190,17 +239,27 @@ def callback_query(call):
             try:
                 bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                       text=result_text, parse_mode="HTML", reply_markup=markup)
-            except Exception:
+            except Exception as error:
+                print(error)
+                print(traceback.format_exc())
                 bot.send_message(call.message.chat.id, result_text, parse_mode="HTML")
 
-    except Exception as e:
-        print(f"Error in callback: {e}")
+    except Exception as error:
+        print(f"Error in callback: {error}")
+        print(traceback.format_exc())
         try:
             bot.answer_callback_query(call.id, "ERROR")
-        except:
-            pass
+        except Exception as error:
+            print(error)
+            print(traceback.format_exc())
 
 
 if __name__ == "__main__":
     print("🤖 Бот запущен и готов к работе...")
-    bot.infinity_polling()
+    try:
+        bot.infinity_polling(
+            timeout=60,
+            long_polling_timeout=60
+        )
+    except Exception as err:
+        print(err, " skip...")

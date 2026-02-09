@@ -2,7 +2,7 @@
 sample = {
 
     "NN/NN/NNNN": {
-        "daily_task": {
+        "dailytask": {
             "vocabulary": """
 Vocabulary - Absent (try later)            
             """,
@@ -1538,6 +1538,732 @@ No writing
             """,
             "speaking": """
 No speaking            
+            """
+        }
+    },
+    "02/03/2026":{
+        "dailytask": {
+            "vocabulary": """
+
+Exercise #1
+
+attend a lecture
+raise
+enroll
+fiction
+contain
+request
+raise
+brochure
+refund
+assignment
+
+Exercise #2
+
+She was excited to attend a lecture
+→ after hearing about the new course.
+
+You can request a brochure
+→ if you want to get more information about the upcoming event.
+
+The brochure will contain
+→ the full schedule of events for the weekend.
+
+He plans to enroll
+→ in the photography workshop next month.
+
+It is important to qualify
+→ for the competition by following all the eligibility criteria.
+
+They want to raise awareness
+→ about the importance of recycling in schools.
+
+She read the book
+→ which was a piece of fiction set in a dystopian future.
+
+The course contains
+→ detailed instructions about how to submit your final paper.
+
+I need to request the money
+→ I spent on the damaged product.
+
+The teacher gave us a challenging assignment
+→ that is due by the end of the week.
+            """,
+            "Grammar": """
+Exercise 1 (Choose the correct option):
+
+in
+in
+since
+over
+in
+in
+Since 
+since
+over
+in 
+
+Exercise 2 (Fill in the gaps):
+
+in
+over
+At
+since
+in
+over
+in
+In
+over
+At
+
+Result: 90% .. 100%
+            """,
+            "Listening": """
+At the King Centre, you can → See a live performance ✅
+The ’T Park’ attendance has recently improved because of → Better public transport ✅
+In Marytown, you may be able to → Attend a university lecture ✅
+At the canal, you can → Have a picnic ✅
+The speaker concludes by recommending visitors to → Carry water ✅
+
+Result: 100%
+            """,
+            "Reading": """
+inefficient
+endurance
+technical
+submarine
+Clermont
+cargo
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+No workbook
+            """,
+            "writing": """
+No writing            
+            """,
+            "speaking": """
+No speaking            
+            """
+        }
+    },
+    "02/04/2026":{
+        "dailytask": {
+            "vocabulary": """
+Choose the correct option
+
+background
+qualify for the competition
+feedback
+essential
+volume
+match
+continuous
+master
+environment
+get through
+
+Matching
+
+had shaped his perspective on life.
+their qualifications for the position.
+feedback from the audience.
+continuous improvements to its customer service system.
+you must meet all the entry requirements.
+for any engineering degree program.
+because it was too loud.
+he finally became a master at playing the piano.
+with plenty of light and quiet.
+the difficult interview and get the job.
+
+Result: 100% (✅)
+            """,
+            "Reading": """
+1. C
+2. A
+3. B
+4. D
+5. A
+
+Result: 100% (✅)
+            """,
+            "Grammar": """
+1. by
+2. by
+3. in
+4. by
+5. by
+6. by
+7. in
+8. at
+9. in
+10. by
+
+Result: 79% .. 100% (🟡)
+
+            """,
+            "Listening": """
+charity
+industry
+lawyer
+chocolate
+passport
+
+Result: 100% (✅)
+            """
+        },
+        "homework": {
+            "workbook": """
+Task 1 — What you need to complete
+
+d
+d
+e
+b
+a
+b
+d
+
+Task 2 — Form completion
+
+Wallace
+14 Rose Hill
+OX13 3NJ
+08723 49162
+Work
+5.30
+May
+
+Task 3 — Choose A / B / C
+
+B
+A
+A
+C
+B
+
+Task 4 — risen / raised
+
+risen
+raised
+raise
+rose
+
+Task 5 — raise / rise
+
+risen
+raise
+rose
+rising
+raised
+rose
+rising
+raise
+raise
+
+Task 6 — Word formation
+
+pressure
+unemployment
+online
+lecture
+outline
+dramatically
+illiterate
+progress
+feedback
+
+Result: 90% (✅)
+            """,
+            "writing": """
+No writing            
+            """,
+            "speaking": """
+No speaking            
+            """
+        }
+    },
+    "02/05/2026": {
+        "dailytask": {
+            "vocabulary": """
+Exercise 1 – Choose the correct option:
+
+pressure
+deal with
+rough
+outline
+skim
+extract
+irrelevant
+instant
+skip back
+comprehend
+
+Exercise 2 – Match the halves:
+
+The team had to deal with → the pressure of meeting the tight deadline.
+The teacher asked the students to outline → the main points from the chapter.
+She had to skim → through the report quickly to find the key details.
+The scientist was able to extract → meaningful data from the complex experiment.
+The meeting was filled with irrelevant → discussions that took up valuable time.
+He received an instant → reply to his message, which surprised him.
+I accidentally skipped back → to the previous slide during the presentation.
+He struggled to comprehend → the complex scientific theory without more explanation.
+The stormy weather made it a rough → day for outdoor activities.
+It’s essential → to stay focused during the exam to achieve the best results.        
+
+Result: 100%
+            """,
+            "Grammar": """
+Exercise 1 – Choose the Correct Option:
+
+above
+from
+below
+compared to
+in comparison
+from
+above
+below
+from
+compared to
+
+Exercise 2 – Fill in the gaps from the box:
+
+between
+in
+from
+from … to
+in     
+
+Result: 94% .. 100%
+            """,
+            "Listening": """
+C (3)
+B (2)
+C (3)
+B (2)
+
+Result: 100%
+            """,
+            "Reading": """
+1) C
+2) B
+3) D
+4) A
+5) B
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    },
+    "02/06/2026": {
+        "dailytask": {
+            "vocabulary": """
+Exercise #1
+
+be engaged
+switch to something
+calm down
+imagination
+illiterate
+relax
+particularly
+grow up
+chat online
+look up something
+
+Exercise #2
+
+in a project that would make a real impact in the community.
+that aligned better with her long-term career goals.
+after a stressful week with some deep breathing exercises.
+created fascinating worlds that captivated both children and adults.
+adults learn to read and write in their native language.
+they begin to understand more about responsibility and the world around them.
+about their favorite hobbies and interests.
+about the company’s new project to be well-prepared.
+insightful, offering detailed analysis and suggestions.
+and watch his favorite show to unwind.  
+            """,
+            "Grammar": """
+Exercise #1
+
+at
+in
+between
+by
+during
+from
+over
+by
+over
+during
+
+Exercise #2
+
+at
+from
+by
+during
+from
+in
+between
+at
+to
+over
+
+Result: 100%       
+            """,
+            "Listening": """
+1) engineer
+2) skis
+3) loneliness
+4) water
+5) weight
+6) toes
+7) rest    
+
+Result: 100% 
+            """,
+            "Reading": """
+1) C
+2) A
+3) B
+4) C
+5) Egyptian
+
+Result: 80% .. 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Exercise #1
+
+a
+
+Exercise #2
+
+C
+G
+F
+B
+D
+H
+B
+
+Exercise #3
+
+reluctant
+colourful pictures
+story
+reading skills
+language
+clues
+vocabulary      
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    },
+    "02/07/2026":{
+        "dailytask": {
+            "vocabulary": """
+Choose the correct option
+
+decrease
+secondary school education
+education
+prefer
+bedtime
+fall
+unemployment rate
+percentage
+peak
+increase
+
+Matching
+
+helps children develop healthy sleep habits.
+because I feel more focused and productive.
+can open doors to better career opportunities.
+is a crucial stage in preparing students for higher learning.
+has improved air quality in the city.
+has led to a higher demand for housing.
+in sales during the holiday shopping season.
+are now working remotely due to new policies.
+but managed to grab a railing just in time.
+by creating more job opportunities.
+
+Result: 100%
+            """,
+            "Grammar": """
+Choose the correct option
+
+used to
+didn't use to
+are used to
+used to
+is used to
+am used to
+didn’t use to
+are getting used to
+usually
+is getting used to
+
+Complete the sentences
+
+used to
+are used
+getting used to
+used to
+get used to
+used to
+
+Result: 100%
+            """,
+            "Listening": """
+branches
+rules
+field
+stand
+shoulders
+tree
+view
+
+Result: 86% .. 100% 
+            """,
+            "Reading": """
+insects
+miasma
+hereditary
+life expectancy
+C
+A
+B
+
+Result: 86% .. 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    },
+    "02/08/2026": {
+        "dailytask": {
+            "vocabulary": """
+Exercise #1
+
+terrible
+hopeful
+basic
+select
+relevant
+College graduates
+government funding
+stable
+downward
+upward
+
+Exercise #2
+
+She remains hopeful → about securing a new job after graduation.
+The upward trend in house prices → has made it difficult for first-time buyers.
+The terrible weather → forced the event organizers to cancel the outdoor concert.
+Learning basic math skills → is necessary for managing personal finances.
+The company experienced a downward shift → in profits due to economic challenges.
+It’s important to include relevant information → when writing a research paper.
+The economy has remained stable → despite global market fluctuations.
+The committee had to select → the most qualified candidates for the scholarship.
+Government funding → is essential for improving public healthcare services.
+College graduates → often face challenges when entering the job market            
+            """,
+            "Grammar": """
+Exercise #1
+
+either
+Both
+either
+both
+Neither
+
+Exercise #2
+
+2) either
+3) Both
+4) either
+5) Neither          
+
+Result: 100%
+            """,
+            "Listening": """
+A (1)
+B (2)
+C (3)
+B (2)
+A (1)
+
+Result: 100%      
+            """,
+            "Reading": """
+Exercise #1
+
+C
+D
+A
+
+Exercise #2
+4) one-sixth
+5) 16th century
+6) Mercator
+7) John Gould       
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Exercise 3197 — Fill in the gaps from the box
+
+Looking at the first graph (Customer numbers, April–September):
+
+The graph shows the number of customers visiting a bookshop over a six-month period.
+Customer numbers increased slightly in May. (rose from ~8–9 to ~9–10)
+Customer numbers decreased slightly the following month. (June: dropped from ~10 back to ~9)
+Customer numbers rose sharply in July. (jumped from ~9 to ~18)
+Customer numbers fell again in August. (dropped from ~18 to ~16)
+Customer numbers peaked in September. (reached highest point ~19)
+There were fluctuations in customer numbers between April and September.
+The graph shows an upward trend generally.
+
+Exercise 3198 — Fill in the gaps from the box (noun/verb transformations)
+
+There was a slight increase in customer numbers in May.
+There was a slight decrease in customer numbers the following month.
+There was a sharp rise in customer numbers in July.
+There was another fall in customer numbers in August.
+Customer numbers reached a peak in September.
+Customer numbers fluctuated during the six-month period.
+
+Exercise 3201 — True or False
+
+The graph shows how much money a city council received from book clubs in the city. False (It shows money given to book clubs)
+The graph also shows how many book club members there were in the city. True
+The graph covers a period of time that began and ended in the past. True
+Over the four-year period, there was a steady rise in the amount of money that was given. False (It rose for three years then fell in Year 4)
+Over the same period, the number of book club members fluctuated. True (Members generally decreased in Years 1–2, then rose sharply in Years 3–4 — no real fluctuation)
+Generally, there was a downward trend in the number of book club members. False (Members decreased initially but then rose significantly, ending much higher than they started)
+
+Exercise 3203 — Prepositions
+
+The graph shows ebook reader sales for a small electronics company over a one-year period. Sales rose between January and March. Then they fell from April to June. They went up again during/in the summer, but fell again in October. They continued falling for the last two months of the year. Overall, ebook reader sales fluctuated considerably in 2011.
+Exercise 3204 — Prepositions from the box
+
+There was a rise in sales of ebook readers.
+Sales of ebook readers saw an increase of 100%.
+Sales fell by 20. (dropped from roughly 100–110 down by about 20)
+Sales of readers rose from 90 a month to 130 a month.
+Sales peaked at 130.
+
+Exercise 3205 — Adverb forms
+
+more clearly (given as example)
+Some books are incredibly expensive.
+I'm sorry, but I've accidentally broken your camera.
+It's extremely hard to concentrate with so much noise going on.
+She stared at me angrily and left the room.
+We've studied your figures carefully and can't find any mistakes.
+When we discovered what the problem was, we hastily organised a meeting to deal with it.
+The door opens automatically as you approach it.
+If we think about the problem logically, I'm sure we'll find a solution.
+He looked at me sympathetically and shook his head.       
+
+Result: 100%
+            """,
+            "speaking": """
+1️⃣ Do you enjoy reading books or articles for school, university or self-study? Why / Why not?
+
+Yes, I do enjoy reading, especially when the material is connected to something practical or interesting. For example, I like reading articles related to technology, programming, or self-development because I can immediately apply what I learn. However, I sometimes find academic texts boring if they are too theoretical or poorly written. In general, reading is useful for expanding my knowledge and improving my vocabulary, so I try to make it a regular habit.
+
+2️⃣ Do you prefer reading printed textbooks or digital materials for studying? Why?
+
+I personally prefer digital materials because they are more convenient and flexible. I can access them on my phone or laptop anywhere, highlight important parts, and quickly search for specific information. In addition, digital resources are often updated more frequently than printed textbooks. That said, printed books can be helpful when I want to avoid distractions and focus deeply, but overall, digital materials suit my lifestyle better.
+
+3️⃣ Have you ever enjoyed reading something that you didn’t expect to like?
+
+Yes, I have. Once, I started reading a historical article that I initially thought would be boring. Surprisingly, it was very engaging because it was written in a storytelling style and included real-life examples. As I continued reading, I became more interested in the topic and even searched for similar content later. This experience taught me not to judge a text only by its title or subject.
+
+4️⃣ Is there a specific subject you enjoy reading about more than others?
+
+Yes, I especially enjoy reading about technology and psychology. Technology helps me understand how modern systems work, while psychology allows me to better understand people and myself. These subjects feel relevant to real life and are constantly evolving, which makes them more exciting. I also like that most articles in these fields are written in a clear and engaging way.
+
+5️⃣ Do you find it easy or difficult to stay focused when reading for a long time? Why?
+
+It depends on the content. If the topic is interesting and well-structured, I can stay focused for a long time without any problems. However, if the text is repetitive or too complex, I start losing concentration quite quickly. To deal with this, I usually take short breaks or divide the text into smaller parts, which helps me stay productive.      
+
+
+Results:
+
+Fluency: INDIVIDUAL
+Grammar: 5/5
+Vocabulary: 5/5
+Pronunciation: INDIVIDUAL
+Task completion: 5/5
+            """,
+            "writing": """
+            
+All topics:        
+    
+1️⃣ Free access for locals vs equal payment
+
+Some believe that local people should have free access to popular tourist attractions in their area, while others think everyone should pay equally.
+
+Write at least 250 words.
+Discuss both views and give your opinion.
+Provide relevant examples where possible.
+
+2️⃣ Historical sites vs modern infrastructure
+
+Many people think that governments should spend more money maintaining historical sites, while others believe the funds should go to modern attractions and infrastructure.
+
+Write at least 250 words.
+Discuss both sides and give your opinion.
+Support your answer with reasons and examples.
+
+3️⃣ Overcrowding vs cultural preservation through tourism
+
+Some people believe that famous tourist attractions are becoming overcrowded and losing their cultural value. Others think tourism is essential for preserving and promoting culture.
+
+Write at least 250 words.
+Discuss both views and give your opinion.
+Use specific examples to support your answer.
             """
         }
     }
