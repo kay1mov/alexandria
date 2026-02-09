@@ -13,6 +13,8 @@ whitelist = True
 help_message = f'''
 /start - Start bot
 /whitelist - List of people in stuff
+/s <link to the Spotify track> - Download spotify track
+/info - Few information about the bot
 
 🚫 Non-whitelisted individuals are not welcome under any circumstances 🚫
 '''
