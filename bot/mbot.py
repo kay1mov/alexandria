@@ -70,7 +70,7 @@ def start_command(message):
 
 #    text += special_message if is_authorized(user) and whitelist else "Choose action:"
     if user.id == 6502028914 or user.id == 5104299484:
-        text += '\nNew command was added.\nType "/s <link to the spotify track"\nTo download track and listen to it totally offline.\n(Visible only for one person)'
+        text += '\nNew command was added.\nType "/s <link to the spotify track"\nTo download track and listen to it totally offline.'
 
     bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
 
