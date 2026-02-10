@@ -151,7 +151,15 @@ def callback_query(call):
             markup = types.InlineKeyboardMarkup(row_width=2)
             sorted_dates = sorted(homeworks.keys(), reverse=True)
             sorted_dates = sorted_dates[:4]
-            markup.add(types.InlineKeyboardButton(f"📔 Today", callback_data="date:today"))
+            for d in sorted_dates:
+                if homeworks[d].get("hided", False):
+                    sorted_dates.remove(d)
+
+            date = datetime.now()
+            str_format = f'{str(0) if date.month < 10 else ""}{date.month}/{str(0) if date.day < 10 else ""}{date.day}/{date.year}'
+
+            if str_format in homeworks.keys() and not homeworks[str_format].get("hided", False):
+                markup.add(types.InlineKeyboardButton(f"📔 Today", callback_data="date:today"))
 
             buttons = []
             for date in sorted_dates:
@@ -165,7 +173,6 @@ def callback_query(call):
             selected_date = data[1]
             if selected_date not in homeworks:
                 if selected_date == "today":
-                    print("Today")
                     date = datetime.now()
                     str_format = f'{str(0) if date.month < 10 else ""}{date.month}/{str(0) if date.day < 10 else ""}{date.day}/{date.year}'
                     selected_date = str_format
@@ -183,7 +190,10 @@ def callback_query(call):
 
 
             for t_type in task_types:
-                display_name = "📝 Daily Task" if t_type == "dailytask" else "book: Homework"
+                if t_type not in ["dailytask", "homework"]:
+                    continue
+
+                display_name = "📝 Daily Task" if t_type == "dailytask" else "Unknown"
                 if t_type == "homework": display_name = "🏠 Homework"
 
                 markup.add(types.InlineKeyboardButton(display_name, callback_data=f"type:{selected_date}:{t_type}"))
