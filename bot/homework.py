@@ -2266,6 +2266,183 @@ Discuss both views and give your opinion.
 Use specific examples to support your answer.
             """
         }
+    },
+    "02/09/2026": {
+        "dailytask": {
+            "vocabulary": """
+Choose the correct option
+
+extremely
+sharp
+factual
+fluctuate
+thoroughly
+cover
+gradually
+equipment
+steadily
+gentle
+
+Matching
+
+happy when he received the job offer
+information about climate change
+before signing it
+improved his performance with consistent training
+increasing over the past few months
+tone to calm the crying child
+in the laboratory allows scientists to conduct advanced research
+unexpected medical expenses
+due to economic and political events
+increase in fuel prices after the new tax was introduced  
+
+Result: 100%
+            """,
+            "Grammar": """
+so
+such
+so
+so
+so
+
+Fill in the blanks
+
+so
+such
+so
+such
+so           
+
+Result: 100%
+            """,
+            "Listening": """
+geography
+markets
+magazine
+horses
+winter
+motorbike
+fishing            
+
+Result: 100%
+            """,
+            "Reading": """
+machinery
+farm
+mayor
+railroads
+nutritionists
+almonds
+exhibition
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    },
+    "02/10/2026": {
+        "hided": False,
+        "dailytask": {
+            "vocabulary": """
+Test (Choose the correct option):
+
+A
+B
+B
+B
+C
+B
+B
+B
+B
+B
+
+Fill in the gaps:
+
+skiing
+wilderness
+icy
+sightseeing
+within reach
+backpacking
+safari
+to expand
+report    
+
+Result: 100%
+            """,
+            "Grammar": """
+Exercise 1:
+
+who
+where
+that
+who
+where
+where
+that
+who
+where
+who
+
+Exercise 2:
+
+that
+who
+where
+that
+who
+where
+who
+where
+that
+where          
+
+Result: 100%
+            """,
+            "Listening": """
+B
+B
+C
+A
+A
+C
+
+Result: 100%
+            """,
+            "Reading": """
+17 years
+backpack
+interact with
+facial expressions
+Cog
+sensors
+intelligence     
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
     }
 }
 
