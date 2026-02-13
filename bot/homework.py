@@ -2443,6 +2443,209 @@ Speaking - Absent (try later)
 Writing - Absent (try later)            
             """
         }
+    },
+    "02/11/2026": {
+        "hided": False,
+        "dailytask": {
+            "vocabulary": """
+suitable
+inhospitable
+annual
+brought out
+arrive
+cruise
+passenger
+leisure activity
+bring out
+lengthening
+leisure activity
+cruise
+suitable
+inhospitable
+annual
+figure
+lengthening
+arrive
+passenger
+bring out
+
+Result: 95% .. 100%
+            """,
+            "Grammar": """
+who
+where
+who
+where
+that
+where
+that
+what
+who
+where
+
+someone who buys something from a shop
+someone who breaks into a house to steal things
+someone who is not brave
+someone who pays rent to live somewhere
+someone who steals from a shop
+someone who doesn’t tell the truth
+someone who expects the worst to happen
+
+Result: 100%
+            """,
+            "Listening": """
+B
+A
+C
+B
+A
+
+Result: 80% .. 100%
+            """,
+            "Reading": """
+natural processes
+polar amplification
+reflects
+springtime
+coastal cities
+methane
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+
+remote
+culture
+one percent
+values
+lifestyle
+main attraction
+local people
+studies
+
+B
+D
+B
+A
+C
+
+
+tourism
+tourist
+tourist
+tourism
+tourism
+tourists
+
+memorable
+package deal
+magical
+sightseeing
+tour guide
+vacation
+delay
+aircraft
+capable
+stressful
+
+continent
+resort
+breathtaking
+within reach
+leisure activities
+monuments
+urban
+outdated
+evidence
+abroad       
+
+Result: 95% .. 100%
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    },
+    "02/12/2026": {
+        "hided": False,
+        "dailytask": {
+            "vocabulary": """
+marine
+sharp
+downturn
+land-based
+fragile
+access
+capable of
+to carry
+uncommon
+to explode
+
+marine
+fragile
+downturn
+sharp
+land-based
+access
+capable of
+to carry
+uncommon
+explode       
+
+Result: 100%
+            """,
+            "Grammar": """
+1) The people who work in the office are very friendly.
+2) What happened to the money that was on the table?
+3) What’s the best thing that has ever happened to you?
+
+1) who
+2) what
+3) that
+4) that
+5) that
+6) that
+7) who
+8) what
+9) that
+10) what      
+
+Result: 100%
+            """,
+            "Listening": """
+B
+A
+F
+G
+C
+
+Result: 100%          
+            """,
+            "Reading": """
+C
+B
+D
+E          
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
     }
 }
 

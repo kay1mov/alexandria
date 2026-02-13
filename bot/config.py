@@ -4,7 +4,9 @@ white_list_id = {
     1125142016: "Doston",
     6502028914: "Amina",
 #    7355193913: "Anis",
-    6494875059: "Farzona"
+    6494875059: "Farzona",
+    1277811720: "Azizjon",
+    1633342686: "Khursandbek"
 }
 
 special_message = f'No need to explain how “cool" you are just because you’re on the whitelist and blah-blah-blah.\nEnjoy 🎯\n\nType "/info - for information"'
@@ -12,7 +14,7 @@ whitelist = True
 
 help_message = f'''
 /start - Start bot
-/whitelist - List of people in stuff
+/whitelist - List of people in staff
 /s <link to the Spotify track> - Download spotify track
 /info - Few information about the bot
 

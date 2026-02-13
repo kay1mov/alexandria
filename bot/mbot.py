@@ -255,12 +255,11 @@ def callback_query(call):
 
     except Exception as error:
         print(f"Error in callback: {error}")
-        print(traceback.format_exc())
+#        print(traceback.format_exc())
         try:
             bot.answer_callback_query(call.id, "ERROR")
         except Exception as error:
-            print(error)
-            print(traceback.format_exc())
+            print(".")
 
 
 if __name__ == "__main__":
