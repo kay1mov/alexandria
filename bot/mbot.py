@@ -36,9 +36,10 @@ def is_authorized(user):
     if not whitelist:
         return True
 
-    return user.id in white_list_id.keys()
+    if user.id in white_list_id:
+        return white_list_id[user.id].get("status", "Inactive") == "Active"
 
-
+    return False
 
 def get_main_keyboard():
     """Главное меню."""
@@ -66,11 +67,11 @@ def start_command(message):
     welcome_words = ["Welcome", "Master", "Hello", "Hi", "What's up", "Glad to see you"]
 
     text = f"{random.choice(welcome_words)} {user.first_name}!\n\n"
-
+    text += special_message
 
 #    text += special_message if is_authorized(user) and whitelist else "Choose action:"
-    if user.id == 6502028914 or user.id == 5104299484:
-        text += '\nNew command was added.\nType "/s <link to the spotify track"\nTo download track and listen to it totally offline.'
+#    if user.id == 6502028914 or user.id == 5104299484:
+#        text += '\nNew command was added.\nType "/s <link to the spotify track"\nTo download track and listen to it totally offline.'
 
     bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
 
@@ -94,12 +95,18 @@ def whitelist_command(message):
         return
 
     text = "📋 Whitelist Users:\n"
+    _ = 1
     for key, value in white_list_id.items():
-        text += f"User #{key}"
-        if int(key) == user.id:
+        hidden, status, name = value.get("hidden", False), value.get("status", "Active"), value.get("name", "Unknown")
+
+        text += f"{_}) Hidden user (#{key*2})" if hidden else f"{name}"
+        text += " (Archived)" if status == "Inactive" else ""
+
+        if int(key) == user.id and hidden:
             text += " (You)"
 
         text += "\n"
+        _ += 1
 
     bot.send_message(message.chat.id, text)
 

@@ -1,5 +1,5 @@
 import requests, time, random, os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 class Auth:
 
@@ -158,14 +158,19 @@ class Auth:
 
         if homework_type.lower() not in available_homework_types:
             print(f"Error in homework_type: {homework_type}")
-            return
+            return None
 
         if homework_subtype.lower() not in available_homework_subtypes:
             print(f"Error in homework_subtype: {homework_subtype}")
-            return
+            return None
 
-        #TODO: To be continued
-        return
+        url = "https://student-api.cambridgeonline.uz/v1/"
+        url += homework_type + "/" + homework_subtype + "/" + "start"
+
+        response = requests.get(url, headers=self.build_headers("student-api.cambridgeonline.uz"), json=homework_info)
+        if response.status_code == 200:
+            return response.json()
+        return None
 
     def _collect(self, _: list):
 
@@ -241,7 +246,19 @@ user_finger_point {'success': True, 'message': '', 'error_code': -1, 'data': {'i
 """
 
 auth = Auth()
-result = auth.collect_data()
+#active_group = auth.get_active_group()
+#level = active_group.get("data", None).get("level", None).get("id", None)
 
-for key, value in result.items():
-    print(key, value)
+homework_info = {
+    "level_id": 6,
+    "unit": 8,
+    "subunit": 2,
+    "day": 4,
+    "date": "2026-02-13",
+    "from": None,
+    "to": None,
+    "book_type": None
+}
+
+result = auth.get_homework("extra_task", "reading", homework_info)
+print(result)

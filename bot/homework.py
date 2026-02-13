@@ -1,35 +1,5 @@
 
-sample = {
 
-    "NN/NN/NNNN": {
-        "dailytask": {
-            "vocabulary": """
-Vocabulary - Absent (try later)            
-            """,
-            "Grammar": """
-Grammar - Absent (try later)            
-            """,
-            "Listening": """
-Listening - Absent (try later)            
-            """,
-            "Reading": """
-Reading - Absent (try later)            
-            """
-        },
-        "homework": {
-            "workbook": """
-Workbook - Absent (try later)            
-            """,
-            "speaking": """
-Speaking - Absent (try later)            
-            """,
-            "writing": """
-Writing - Absent (try later)            
-            """
-        }
-    }
-
-}
 
 
 homeworks = {
@@ -2646,6 +2616,126 @@ Speaking - Absent (try later)
 Writing - Absent (try later)            
             """
         }
+    },
+    "02/13/2026": {
+        "dailytask": {
+            "vocabulary": """
+Exercise 1: Choose the correct option
+
+widely accepted
+regulations
+adopted
+proposal
+vessel
+environmental protection
+to go ashore
+survey
+coastguard rescue
+media coverage
+
+Exercise 2: Fill in the gaps
+
+widely accepted
+regulations
+adopted
+survey
+proposal
+environmental protection
+vessel
+coastguard rescue
+to go ashore
+media coverage  
+
+Result: 95% .. 100%          
+            """,
+            "Grammar": """
+Exercise 1: Fill in the gaps
+
+whose (shows possession of the car)
+where (refers to a place)
+who (subject pronoun for a person)
+whose (possession of parents)
+where (refers to the hotel)
+whose (possession of the language)
+whom (object of the preposition "from")
+where (refers to the village)
+
+Exercise 2: Choose the correct option
+
+who
+whose
+whom (or who in casual speech, but whom is the object here)
+where
+whose
+when (refers to time)
+where (though "whose roof" would also work, "where" fits the options)
+whose          
+
+Result: 100%
+            """,
+            "Listening": """
+E
+D
+A
+H
+G
+C         
+
+Result: 100%    
+            """,
+            "Reading": """
+
+sound clip
+success rate
+problem solving
+unrelated
+emotions  
+
+Result: 80% .. 100%        
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
     }
 }
 
+sample = {
+
+    "NN/NN/NNNN": {
+        "dailytask": {
+            "vocabulary": """
+Vocabulary - Absent (try later)            
+            """,
+            "Grammar": """
+Grammar - Absent (try later)            
+            """,
+            "Listening": """
+Listening - Absent (try later)            
+            """,
+            "Reading": """
+Reading - Absent (try later)            
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    }
+
+}
