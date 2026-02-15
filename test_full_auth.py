@@ -9,7 +9,7 @@ class Auth:
                  accept_encoding: str = "gzip",
                  accept_language: str = "en",
                  app_version_code: str = "333",
-                 app_version_name: str ="2.0.38",
+                 app_version_name: str = "2.0.38",
                  authorization: str = "Bearer 27498|k1Y4q5z5OYZIGZOo9ypfBtJ43Wb6KZ6jYvIPUEyUab9da1a3",
                  device: str = "samsung SM-S721B s5e9945 Physical Device",
                  host: str = "",

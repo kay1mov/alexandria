@@ -2705,6 +2705,96 @@ Speaking - Absent (try later)
 Writing - Absent (try later)            
             """
         }
+    },
+    "02/14/2026": {
+        "dailytask": {
+            "vocabulary": """
+Exercise 1:
+
+headline
+suffering
+polar bear
+symbol
+warning
+to acknowledge
+to delay
+trip
+annually
+associated
+
+Exercise 2:
+
+headline
+polar bear
+warning
+symbol
+to acknowledge
+to delay
+trip
+annually
+associated
+to delay        
+
+Result: 100%
+            """,
+            "Grammar": """
+Exercise 1:
+
+interesting
+shocked
+bored
+amusing
+disappointed
+exciting
+interested
+surprising
+tired
+boring
+
+Exercise 2:
+
+depressing
+shocked
+interested
+bored
+disappointed
+hilarious
+boring
+interesting
+surprised          
+
+Result: 100%
+            """,
+            "Listening": """
+Tesla
+microphone
+exhibition
+Wi-Fi
+45   
+
+Result: 100%        
+            """,
+            "Reading": """
+Yes
+No
+Not given
+No
+Not given         
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
     }
 }
 
