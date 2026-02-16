@@ -246,19 +246,26 @@ user_finger_point {'success': True, 'message': '', 'error_code': -1, 'data': {'i
 """
 
 auth = Auth()
-#active_group = auth.get_active_group()
-#level = active_group.get("data", None).get("level", None).get("id", None)
-
 homework_info = {
     "level_id": 6,
-    "unit": 8,
-    "subunit": 2,
-    "day": 4,
-    "date": "2026-02-13",
+    "unit": 9,
+    "subunit": 1,
+    "day": 2,
+    "date": "2026-02-18",
     "from": None,
     "to": None,
     "book_type": None
 }
 
-result = auth.get_homework("extra_task", "reading", homework_info)
-print(result)
+result_listening = auth.get_homework("extra_task", "listening", homework_info)
+result_reading = auth.get_homework("extra_task", "reading", homework_info)
+result_vocabulary = auth.get_homework("extra_task", "vocabulary", homework_info)
+result_grammar = auth.get_homework("extra_task", "grammar", homework_info)
+
+"""
+Response type:
+{'success': boolean(True/False), 'message': 'success'/'error', 'error_code': (-1..99999, -1=no error), 'data': dict{...HOMEWORK...} }
+
+Example response of result_listening:
+{'success': True, 'message': 'success', 'error_code': -1, 'data': {'can_be_given_points': False, 'min_overall_percentage': 80, 'exercises': [[{'id': 11221, 'instruction': 'Listen to the audio.', 'exercise_type': 'audio', 'exercise': {'url': 'https://acd-api.cambridgeonline.uz/storage/audios/oRxD3gNo95srQylV5f2unL90PD0CIxzdL2XxR5Tl.mp3'}}, {'id': 11222, 'instruction': 'Choose the correct letter, A, B or C.', 'exercise_type': 'test', 'exercise': {'questions': [{'id': 174590256713976580, 'question': 'What is the maximum number of people who can stand on each side of the boat?', 'options': [{'id': 17459025671396480, 'body': 'A) 9'}, {'id': 174590256713988300, 'body': 'B) 15'}, {'id': 174590258966884640, 'body': 'C) 18'}]}, {'id': 174590259290833600, 'question': 'What colour are the tour boats?', 'options': [{'id': 174590259290817630, 'body': 'A) dark red'}, {'id': 174590259290825150, 'body': 'B) jet black'}, {'id': 174590260657491870, 'body': 'C) light green'}]}, {'id': 17459026108856304, 'question': 'Which lunchbox is suitable for someone who doesn’t eat meat or fish?', 'options': [{'id': 174590261088583500, 'body': 'A) Lunchbox 1'}, {'id': 174590261088549760, 'body': 'B) Lunchbox 2'}, {'id': 174590262190093980, 'body': 'C) Lunchbox 3'}]}, {'id': 17459026250046544, 'question': 'What should people do with their litter?', 'options': [{'id': 174590262500454750, 'body': 'A) take it home'}, {'id': 174590262500453660, 'body': 'B) hand it to a member of staff'}, {'id': 174590263642840770, 'body': 'C) put it in the bins provided on the boat'}]}]}}, {'id': 11223, 'instruction': 'Listen to the audio.', 'exercise_type': 'audio', 'exercise': {'url': 'https://acd-api.cambridgeonline.uz/storage/audios/ObiEEqcc7agH60JJoaMsW0mGqri6VEf9QPxhhtiN.mp3'}}, {'id': 11224, 'instruction': 'Questions 5 and 6. Choose TWO letters, A–E.', 'exercise_type': 'multiple_choice', 'exercise': {'question': 'Which TWO features of the lighthouse does Lou mention?', 'options': [{'id': 174590274748998270, 'body': 'A) why it was built'}, {'id': 174590274748980500, 'body': 'B) who built it'}, {'id': 174590279819357920, 'body': 'C) how long it took to build'}, {'id': 174590279865744260, 'body': 'D) who staffed it'}, {'id': 174590281188921760, 'body': 'E) what it was built with'}]}}, {'id': 11225, 'instruction': 'Questions 7 and 8.  Choose TWO letters, A–E.', 'exercise_type': 'multiple_choice', 'exercise': {'question': 'Which TWO types of creature might come close to the boat?', 'options': [{'id': 174590284741736060, 'body': 'A) sea eagles'}, {'id': 17459028474171236, 'body': 'B) fur seals'}, {'id': 174590286697231140, 'body': 'C) dolphins'}, {'id': 174590286735785120, 'body': 'D) whales'}, {'id': 174590287407639680, 'body': 'E) penguins'}]}}, {'id': 11226, 'instruction': 'Questions 9 and 10. Choose TWO letters, A–E.', 'exercise_type': 'multiple_choice', 'exercise': {'question': 'Which TWO points does Lou make about the caves?', 'options': [{'id': 174590298513591400, 'body': 'A) Only large tourist boats can visit them.'}, {'id': 174590298513552740, 'body': 'B) The entrances to them are often blocked.'}, {'id': 174590300701240400, 'body': 'C) It is too dangerous for individuals to go near them.'}, {'id': 17459030074983808, 'body': 'D) Someone will explain what is inside them.'}, {'id': 17459030140084942, 'body': 'E) They cannot be reached on foot.'}]}}]]}}
+"""

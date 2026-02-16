@@ -2795,7 +2795,64 @@ Speaking - Absent (try later)
 Writing - Absent (try later)            
             """
         }
+    },
+    "02/15/2026":{
+        "dailytask": {
+            "vocabulary": """
+Vocabulary - Absent (try later)            
+            """,
+            "Grammar": """
+Fill in the gaps from the box:
+
+still
+already
+still
+anymore
+yet
+yet
+anymore
+still
+already
+still
+
+Choose the best option:
+
+still
+anymore
+yet
+yet
+anymore
+already
+still
+still
+anymore
+already           
+            """,
+            "Listening": """
+Listening - Absent (try later)            
+            """,
+            "Reading": """
+D
+B
+B
+A          
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
     }
+
 }
 
 sample = {

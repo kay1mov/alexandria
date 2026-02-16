@@ -1,0 +1,407 @@
+{
+  "test1_grammar": {
+    "grammar_start": {
+  "success": true,
+  "message": "success",
+  "error_code": -1,
+  "data": {
+    "can_be_given_points": false,
+    "min_overall_percentage": 80,
+    "exercises": [
+      [
+        {
+          "id": 12065,
+          "instruction": "Fill in the gaps from the box.",
+          "exercise_type": "fill_gap_from_box",
+          "exercise": {
+            "body": "<p>1) Mike lost his job a year ago and he is [] unemployed.<\/p><p>2) Shall I tell Joe what happened or does he [] know?<\/p><p>3) Do you [] live in the same place or have you moved?<\/p><p>4) I was hungry earlier, but I don\u2019t feel hungry [].<\/p><p>5) Can we wait a few minutes? I don\u2019t want to go out [].<\/p><p>6) I\u2019m hungry. Is dinner ready [] ?<\/p><p>7) Amy used to work at the airport, but she doesn\u2019t work there [].<\/p><p>8) I used to live in Amsterdam. I [] have a lot of friends there.<\/p><p>9) There\u2019s no need to introduce me to Joe. We\u2019ve [] met.<\/p><p>10) John is 80 years old, but he\u2019s [] very fit and healthy.<\/p>",
+            "options": [
+              "still",
+              "still",
+              "anymore",
+              "yet",
+              "already",
+              "anymore",
+              "already",
+              "still",
+              "yet",
+              "still"
+            ]
+          }
+        },
+        {
+          "id": 11360,
+          "instruction": "choose the best option to complete each sentence.",
+          "exercise_type": "choose_option",
+          "exercise": {
+            "body": "<p>1) It\u2019s 9 PM and Sam is [already \/ still \/ yet] working in the office.<\/p><p>2) I don\u2019t live here [still \/ anymore \/ already].<\/p><p>3) Have you eaten dinner [still \/ anymore \/ yet]?<\/p><p>4) He hasn\u2019t replied to my message [still \/ anymore \/ yet].<\/p><p>5) We used to go out a lot, but we don\u2019t [yet \/ anymore\/ already].<\/p><p>6) She\u2019s [yet \/ still \/ already] gone to bed \u2014 she must have been tired!<\/p><p>7) My grandparents [already \/ yet \/ still] live in the countryside.<\/p><p>8) Is your brother [yet \/ still \/ already] living in Berlin?<\/p><p>9) They aren\u2019t working on that project [still \/ anymore \/ already].<\/p><p>10) I\u2019ve [already \/ still \/ yet] finished the book \u2014 it was amazing!<\/p>"
+          }
+        }
+      ]
+    ]
+  }
+}
+  },
+  "grammar_finish": {
+  "exercises": [
+    {
+      "id": 12065,
+      "exercise_type": "fill_gap_from_box",
+      "answer": {
+        "user_input": [
+          "still",
+          "already",
+          "still",
+          "anymore",
+          "yet",
+          "yet",
+          "anymore",
+          "still",
+          "already",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": 11360,
+      "exercise_type": "choose_option",
+      "answer": {
+        "user_input": [
+          " still ",
+          " anymore ",
+          " yet",
+          " yet",
+          " anymore",
+          " already",
+          " still",
+          " still ",
+          " anymore ",
+          "already "
+        ]
+      }
+    }
+  ],
+  "level_id": 6,
+  "unit": 8,
+  "subunit": 3,
+  "day": 6,
+  "date": "2026-02-15",
+  "from": null,
+  "to": null,
+  "attempt_id": null
+},
+  "test2_reading": {
+    "start": {
+  "success": true,
+  "message": "success",
+  "error_code": -1,
+  "data": {
+    "can_be_given_points": false,
+    "min_overall_percentage": 80,
+    "exercises": [
+      [
+        {
+          "id": 11130,
+          "instruction": "Read the passage.",
+          "exercise_type": "passage",
+          "exercise": {
+            "instruction": "Read the passage.",
+            "title": "Humanities and the health professional",
+            "body": "READING BIG TEXT"
+          }
+        },
+        {
+          "id": 11131,
+          "instruction": "Choose the correct letter A, B, C, or D.",
+          "exercise_type": "test",
+          "exercise": {
+            "questions": [
+              {
+                "id": 174547775503855420,
+                "question": "What unforeseen results did the Flexner report have?",
+                "options": [
+                  {
+                    "id": 174547775503872300,
+                    "body": "A) It caused the public to distrust the quality of medical education"
+                  },
+                  {
+                    "id": 174547775503884300,
+                    "body": "B) It caused a dramatic increase in medical school applicants"
+                  },
+                  {
+                    "id": 174547777381178500,
+                    "body": "C) It started a fierce debate over proper laboratory methods"
+                  },
+                  {
+                    "id": 17454777742519904,
+                    "body": "D) It moved the focus of medical studies away from the humanities"
+                  }
+                ]
+              },
+              {
+                "id": 174547778422761380,
+                "question": "The writer lists humanities activities at Dalhousie Medical school to, show how these activities",
+                "options": [
+                  {
+                    "id": 174547778422710530,
+                    "body": "A) Have become the most popular events on campus"
+                  },
+                  {
+                    "id": 174547778422727330,
+                    "body": "B) Widen students\u2019 educational experiences"
+                  },
+                  {
+                    "id": 174547779585955840,
+                    "body": "C) Are of as high a quality as medical ones."
+                  },
+                  {
+                    "id": 174547779632498050,
+                    "body": "D) Have gained acceptance with teaching staff"
+                  }
+                ]
+              },
+              {
+                "id": 174547780286091740,
+                "question": "How do students at Dalhousie Medical school react to humanities activities?",
+                "options": [
+                  {
+                    "id": 174547780286070300,
+                    "body": "A) They have difficulty letting go of the mind-set that scientific knowledge is more legitimate."
+                  },
+                  {
+                    "id": 17454778028605412,
+                    "body": "B) They report feeling that medical school has become more engaging and satisfying."
+                  },
+                  {
+                    "id": 174547782301141570,
+                    "body": "C) They have started to transfer creative ideas to their scientific and laboratory studies."
+                  },
+                  {
+                    "id": 174547782336395520,
+                    "body": "D) They have trouble connecting to talents that had valued before entering medical school."
+                  }
+                ]
+              },
+              {
+                "id": 174547783280432500,
+                "question": "What is the writer\u2019s main conclusion?",
+                "options": [
+                  {
+                    "id": 174547783280459100,
+                    "body": "A) Greater emphasis on humanities in medical schools will benefit both patients and practitioners."
+                  },
+                  {
+                    "id": 174547783280432800,
+                    "body": "B) Medical schools are not adequately preparing students to become balanced medical professionals."
+                  },
+                  {
+                    "id": 174547784849159100,
+                    "body": "C) Creating a humanities program in a medical school is an overwhelmingly difficult but necessary task."
+                  },
+                  {
+                    "id": 174547784915687940,
+                    "body": "D) Medical schools should return to the early twentieth-century model of medical education."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    ]
+  }
+}
+  },
+  "finish": {
+  "exercises": [
+    {
+      "id": 11130,
+      "exercise_type": "passage",
+      "answer": {}
+    },
+    {
+      "id": 11131,
+      "exercise_type": "test",
+      "answer": {
+        "solved_questions": [
+          {
+            "question_id": 174547775503855420,
+            "chosen_option_id": 17454777742519904
+          },
+          {
+            "question_id": 174547778422761380,
+            "chosen_option_id": 174547778422727330
+          },
+          {
+            "question_id": 174547780286091740,
+            "chosen_option_id": 17454778028605412
+          },
+          {
+            "question_id": 174547783280432500,
+            "chosen_option_id": 174547783280459100
+          }
+        ]
+      }
+    }
+  ],
+  "level_id": 6,
+  "unit": 8,
+  "subunit": 3,
+  "day": 6,
+  "date": "2026-02-15",
+  "from": null,
+  "to": null,
+  "attempt_id": null
+},
+  "test3_vocabulary": {
+    "start": {
+  "success": true,
+  "message": "success",
+  "error_code": -1,
+  "data": {
+    "can_be_given_points": false,
+    "min_overall_percentage": 80,
+    "exercises": [
+      [
+        {
+          "id": 11148,
+          "instruction": "Choose the correct option.",
+          "exercise_type": "choose_option",
+          "exercise": {
+            "body": "<p>1) The river is so wide that boats need [to pass through \/ to look after \/ to recreate] a special lock system to reach the other side.<\/p><p>2) The train tracks [permit \/ run through \/  accompany] the center of the city, making travel very convenient.<\/p><p>3) You need a special [permit \/ belongings \/ schedule] to enter the restricted area.<\/p><p>4) While my parents were away, my grandmother came [to run \/ to accompany \/ to look after] us for the weekend.<\/p><p>5) Please keep an eye on your [belongings \/ schedule \/ permit] while traveling to avoid losing anything.<\/p><p>6) The teacher handed out the exam [permit \/ schedule \/ belongings] so that students knew the exact dates.<\/p><p>7) Parents were invited [to pass through \/ to look around to accompany] their children on the school trip.<\/p><p>8) We arrived early at the museum and had some time [to look around \/ to run \/ to accompany] before the tour started.<\/p><p>9) The meeting is expected [to pass through \/ to look around \/ to run] for about two hours.<\/p><p>10) The scientists worked hard [to recreate \/ to look after \/ to run through] the ancient conditions of the lost civilization.<\/p>"
+          }
+        },
+        {
+          "id": 11149,
+          "instruction": "Fill in the gaps from the box.",
+          "exercise_type": "fill_gap_from_box",
+          "exercise": {
+            "body": "<p>During our road trip, we had (1) [] several tunnels before reaching our destination. The highway runs through beautiful mountains, providing a scenic route for travelers.<\/p><p><\/p><p>At one checkpoint, we had to show a (2) [] to enter a restricted area. While waiting in line, we took turns (3) [] the younger children to make sure they didn\u2019t wander off.<\/p><p><\/p><p>Once we reached the hotel, we quickly unpacked our (4) [] and checked the travel (5) [] to see what activities were planned for the day. Our tour guide was there (6) [] us to the first attraction, where we had plenty of time (7) [] the historical site.<\/p><p><\/p><p>Later that evening, the travel organizers needed (8) [] the next day\u2019s plan to ensure everything was ready. Since the tour was scheduled (9) [] for an entire week, they had to make sure every detail was in place.<\/p>",
+            "options": [
+              "permit",
+              "to pass through",
+              "to run through",
+              "belongings",
+              "looking after",
+              "to look around",
+              "to recreate",
+              "to accompany",
+              "schedule"
+            ]
+          }
+        }
+      ]
+    ]
+  }
+},
+    "finish": {
+  "exercises": [
+    {
+      "id": 11148,
+      "exercise_type": "choose_option",
+      "answer": {
+        "user_input": [
+          "to pass through ",
+          " run through ",
+          "permit ",
+          " to look after",
+          "belongings ",
+          " schedule ",
+          " to look around to accompany",
+          "to look around ",
+          " to run",
+          "to recreate "
+        ]
+      }
+    },
+    {
+      "id": 11149,
+      "exercise_type": "fill_gap_from_box",
+      "answer": {
+        "user_input": [
+          "to run through",
+          "permit",
+          "looking after",
+          "belongings",
+          "schedule",
+          "to accompany",
+          "to look around",
+          "to recreate",
+          "to pass through"
+        ]
+      }
+    }
+  ],
+  "level_id": 6,
+  "unit": 8,
+  "subunit": 3,
+  "day": 6,
+  "date": "2026-02-15",
+  "from": null,
+  "to": null,
+  "attempt_id": null
+}
+  },
+  "test4_listening": {
+    "start": {
+  "success": true,
+  "message": "success",
+  "error_code": -1,
+  "data": {
+    "can_be_given_points": false,
+    "min_overall_percentage": 80,
+    "exercises": [
+      [
+        {
+          "id": 11164,
+          "instruction": "Listen to the audio.",
+          "exercise_type": "audio",
+          "exercise": {
+            "url": "https:\/\/acd-api.cambridgeonline.uz\/storage\/audios\/7GXqgzstoCL97qYUMJO4E5P0M5VMTScmht70Stnx.mp3"
+          }
+        },
+        {
+          "id": 11165,
+          "instruction": "Choose the correct option.",
+          "exercise_type": "choose_option",
+          "exercise": {
+            "body": "<p>What has each of the following volunteers helped someone to do?<\/p><p><\/p><p><strong>What volunteers helped people to do<\/strong><\/p><p><\/p><p>A) Overcome physical difficulties<\/p><p>B) Rediscover skills not used for a long time<\/p><p>C) Improve their communication skills<\/p><p>D) Solve problems independently<\/p><p>E) Escape isolation<\/p><p>F) Remember past times<\/p><p>G) Start a new hobby<\/p><p><\/p><p><strong>Volunteers<\/strong><\/p><p><\/p><p>1) Habib [A\/B\/C\/D\/E\/F\/G]<\/p><p>2) Consuela [A\/B\/C\/D\/E\/F\/G]<\/p><p>3) Minh [A\/B\/C\/D\/E\/F\/G]<\/p><p>4) Tanya [A\/B\/C\/D\/E\/F\/G]<\/p><p>5) Alexei [A\/B\/C\/D\/E\/F\/G]<\/p><p>6) Juba [A\/B\/C\/D\/E\/F\/G]<\/p><p><\/p>"
+          }
+        }
+      ]
+    ]
+  }
+},
+    "finish": {
+  "exercises": [
+    {
+      "id": 11164,
+      "exercise_type": "audio",
+      "answer": {}
+    },
+    {
+      "id": 11165,
+      "exercise_type": "choose_option",
+      "answer": {
+        "user_input": [
+          "F",
+          "A",
+          "E",
+          "G",
+          "D",
+          "C"
+        ]
+      }
+    }
+  ],
+  "level_id": 6,
+  "unit": 8,
+  "subunit": 3,
+  "day": 6,
+  "date": "2026-02-15",
+  "from": null,
+  "to": null,
+  "attempt_id": null
+}
+  }
+}

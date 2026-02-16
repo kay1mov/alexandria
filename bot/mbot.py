@@ -69,7 +69,8 @@ def start_command(message):
     text = f"{random.choice(welcome_words)} {user.first_name}!\n\n"
     text += special_message
 
-    bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
+#    bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
+    bot.send_message(message.chat.id, text)
 
 @bot.message_handler(commands=['info'])
 def info_command(message):
@@ -133,8 +134,19 @@ def spotify_downloader(message):
         print("Could not download")
 
 
+def announcement(message_text, user_ids = None):
+
+    if user_ids is None:
+        user_ids = white_list_id.keys()
+
+    for user in user_ids:
+        bot.send_message(user, message_text)
+        print(f'Message sent for {white_list_id[user].get("name", "Unknown")}')
+
+
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
+    return
     user = call.from_user
 
 
@@ -264,6 +276,24 @@ def callback_query(call):
         except Exception as error:
             print(".")
 
+
+@bot.message_handler(commands=["maa"])
+def make_an_announcement(message):
+    if message.from_user.id != 5104299484:
+        return
+
+    text = message.text
+    text = text.replace("/maa", "")
+
+    if len(text) <= 2:
+        text = """
+Hello everyone! The bot will not be working for a couple of days. The reason is a change in the architecture of the Cambridge App, and the bot needs to be updated and adapted to the new architecture. You will receive a message when the bot is working again. For now, you will have to do everything yourselves! Thank you for your understanding 🙏
+
+P.S. There is a high probability that after the update, the ability to receive answers for homework will also be available for other groups or levels 😇! But not immediately and not for everyone. 
+
+        """
+
+    announcement(message_text=text)
 
 if __name__ == "__main__":
     print("🤖 Бот запущен и готов к работе...")
