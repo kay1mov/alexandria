@@ -12,7 +12,7 @@ Vocabulary: Put in correct words, but only words those were provided in the JSON
 Listening: You will receive big speaking text, with timestamps, labels but the main thing that you need to understand details in this speaking-text and give correct answers to the questions in JSON.
 Grammar: You need to put/write/choose correct word/letter/etc which will be grammatically right.
 Writing: You will receive instructions, theme, minimum word length in JSON data and you need to write essay about it in IELTS Style.
-Speaking: You will receive questions and you need to answer as human answering to this questions, at least 20-30 words.
+Speaking: You will receive questions and you need to answer like human to this questions, at least 20-30 words each question.
 
 And do not add additional information or your opinion. Only answers!
     """,
