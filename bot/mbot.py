@@ -69,8 +69,8 @@ def start_command(message):
     text = f"{random.choice(welcome_words)} {user.first_name}!\n\n"
     text += special_message
 
-#    bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
-    bot.send_message(message.chat.id, text)
+    bot.send_message(message.chat.id, text, reply_markup=get_main_keyboard())
+#    bot.send_message(message.chat.id, text)
 
 @bot.message_handler(commands=['info'])
 def info_command(message):
@@ -146,7 +146,6 @@ def announcement(message_text, user_ids = None):
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
-    return
     user = call.from_user
 
 

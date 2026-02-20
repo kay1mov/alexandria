@@ -1,4 +1,6 @@
-TOKEN = "8403247650:AAEfur_7b00rpGTVghnM51Dx5NVs6ORZozM"
+from pathlib import Path
+
+TOKEN = "8524044391:AAGMTNu3PQpUHrD5ARH2rT7VnD6r3g3AqvE"
 
 # white_list_id = {
 #     1125142016: "Doston",
@@ -14,49 +16,53 @@ white_list_id = {
     1125142016: {
         "name": "Doston",
         "status": "Active",
-        "hidden": True
+        "hidden": False
     },
     6502028914: {
         "name": "Amina",
         "status": "Active",
-        "hidden": True
+        "hidden": False
     },
     6494875059: {
         "name": "Farzona",
         "status": "Active",
-        "hidden": True
+        "hidden": False
     },
     7355193913: {
         "name": "Anis",
         "status": "Inactive",
-        "hidden": True
+        "hidden": False
     },
     1277811720: {
         "name": "Azizjon",
         "status": "Active",
-        "hidden": True
+        "hidden": False
     },
     1633342686: {
         "name": "Khursandbek",
         "status": "Active",
-        "hidden": True
+        "hidden": False
     },
     5104299484: {
         "name": "Umarbek",
         "status": "Active",
-        "hidden": True
+        "hidden": False
     }
 }
 
 #special_message = f'No need to explain how “cool" you are just because you’re on the whitelist and blah-blah-blah.\nEnjoy 🎯\n\nType "/info - for information"'
-special_message = f'Is not working due to technical updates.\n\nType "/info - for information"'
+special_message = f'I dunno know what to write here. So let it be just space - " "\n\nType "/info - for information"'
 whitelist = True
 
 help_message = f'''
 /start - Start bot
 /whitelist - List of people in staff
-/s <link to the Spotify track> - Download spotify track
 /info - Few information about the bot
 
 🚫 Non-whitelisted individuals are not welcome under any circumstances 🚫
 '''
+
+root = Path(__file__).parent.parent
+bot_directory = root / "bot"
+homework_directory = bot_directory / "data" / "homework.json"
+audio_files_directory = bot_directory / "data" / "audio_files"

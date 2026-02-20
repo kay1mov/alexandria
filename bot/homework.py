@@ -2851,6 +2851,262 @@ Speaking - Absent (try later)
 Writing - Absent (try later)            
             """
         }
+    },
+    "02/18/2026": {
+        "dailytask": {
+            "vocabulary": """
+Choose the correct option (1–10)
+
+rate
+to go up
+rate
+to hold a meeting
+to mix in
+customs
+slang
+customs
+frequent
+am looking forward to
+
+Choose the correct option (text)
+
+
+customs
+to mix in
+slang
+intercultural
+to hold a meeting
+rate
+to go up
+frequent
+look forward to
+Match the definitions
+figure — A number representing a statistic
+go up — increase
+rate — The speed or frequency of something happening
+To hold a meeting — To organize a discussion
+mix in — To become part of a social group
+Intercultural — Relating to interactions between different cultures 
+
+Results: 92% .. 100% 
+            """,
+            "Grammar": """
+Comparative
+
+greener
+fitter
+happier
+trendier
+more nervous
+wiser
+cheaper
+lazier
+more serious
+
+Superlative
+
+greatest
+most boring
+highest
+luckiest
+most often
+deepest
+ugliest
+worst
+farthest
+loveliest 
+
+Result: 100%
+            """,
+            "Listening": """
+A
+C
+B
+B
+
+5–6) A, D
+7–8) B, D
+9–10) D, E 
+
+Result: 100%
+            """,
+            "Reading": """
+Fill in the gaps
+
+water
+diet
+drought
+erosion
+desert
+
+True / False / Not given
+
+Not given
+False
+True
+False
+Not given 
+
+Result: 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Listening 1–5
+
+three weeks
+New Zealand
+lawyer
+Cownden
+CV26
+
+Listening 6–10
+
+B
+C
+B
+A
+C
+
+Reading (Third Culture Kids)
+
+Choose A, B or C
+
+B
+
+True / False / Not Given
+
+True
+Not given
+False
+False
+Not given
+True
+
+Table completion
+
+see life
+fear
+cultural clash
+mobility
+cross-cultural kids
+diversity and identity
+shared experiences 
+
+Result: 92% .. 100%        
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
+    },
+    "02/19/2026": {
+        "dailytask": {
+            "vocabulary": """
+#1
+
+to obtain
+local people
+public transport
+sense of adventure
+familiar
+surrounding
+shocking
+abroad
+to adjust
+commonly
+
+#2
+
+Many people dream of living abroad …
+… it takes time to adjust …
+… talking to local people …
+… how to use public transport …
+… A strong sense of adventure …
+… some cultural differences can be shocking …
+… things that once seemed strange start to feel familiar …
+… explore their surrounding …            
+
+Result: 100%
+            """,
+            "Grammar": """
+FILM REVIEW – choose correct words
+
+latest
+least
+worse
+more
+most
+less
+youngest
+better
+higher
+best
+
+Comparative/superlative adverbs
+
+fastest
+more clearly
+earlier
+harder
+more carefully
+worst
+better
+sooner
+more often        
+
+Result: 95% .. 100%
+            """,
+            "Listening": """
+Library
+collecting
+records
+west
+
+Lunch club
+4) transport
+5) art
+
+Help for individuals
+6) hospital
+7) garden          
+
+Result: 100%
+            """,
+            "Reading": """
+True / False / Not given
+
+False
+Not given
+True
+True
+False
+
+Write ONE word
+
+confidence
+schools
+statistics
+clinics
+language            
+
+Result: 90% .. 100%
+            """
+        },
+        "homework": {
+            "workbook": """
+Workbook - Absent (try later)            
+            """,
+            "speaking": """
+Speaking - Absent (try later)            
+            """,
+            "writing": """
+Writing - Absent (try later)            
+            """
+        }
     }
 
 }
