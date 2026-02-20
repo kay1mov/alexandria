@@ -51,7 +51,7 @@ white_list_id = {
 }
 
 #special_message = f'No need to explain how “cool" you are just because you’re on the whitelist and blah-blah-blah.\nEnjoy 🎯\n\nType "/info - for information"'
-special_message = f'I dunno know what to write here. So let it be just space - " "\n\nType "/info - for information"'
+special_message = f'If the button is not working, try restarting the bot by typing /start again.\nIf it did not help - then bot is not working."\n\nType "/info - for information"'
 whitelist = True
 
 help_message = f'''
