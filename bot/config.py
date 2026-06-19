@@ -2,15 +2,6 @@ from pathlib import Path
 
 TOKEN = "TOKEN"
 
-# white_list_id = {
-#     1125142016: "Doston",
-#     6502028914: "Amina",
-# #    7355193913: "Anis",
-#     6494875059: "Farzona",
-#     1277811720: "Azizjon",
-#     1633342686: "Khursandbek"
-# }
-
 white_list_id = {
 
     123456789: {
