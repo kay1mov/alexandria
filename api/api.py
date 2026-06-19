@@ -4,20 +4,20 @@ from datetime import datetime, timedelta
 class Auth:
 
     def __init__(self,
-                 fcm_token: str = "ejxZuDinQ_eHYo9QJwtstt:APA91bF_BCHKMkT-kCd1IWB6AgJ0xe6SvuxQepExq2JmILTsLaofc2zzaoZVd1lZ70d4ataYM9axkzw-OGBcFPhz7zLSVE-nsdPR2stLuSQbPLodqLLXENw",
+                 fcm_token: str = "",
                  accept: str = "application/json",
                  accept_encoding: str = "gzip",
                  accept_language: str = "en",
-                 app_version_code: str = "338",
-                 app_version_name: str = "2.0.39",
-                 authorization: str = "Bearer 27498|k1Y4q5z5OYZIGZOo9ypfBtJ43Wb6KZ6jYvIPUEyUab9da1a3",
-                 device: str = "samsung SM-S721B s5e9945 Physical Device",
+                 app_version_code: str = "",
+                 app_version_name: str = "",
+                 authorization: str = "",
+                 device: str = "",
                  host: str = "",
-                 is_desktop: str = "false",
-                 os_type: str = "android",
-                 os_version: str = "BP2A.250605.031.A3.S721BXXS8CYL1",
-                 sentry_trace: str = "c728060f51f341ad90378d1ade9732e2-e22ed74c92d64ea6",
-                 user_agent: str = "Dart/3.9 (dart:io)"):
+                 is_desktop: str = "",
+                 os_type: str = "",
+                 os_version: str = "",
+                 sentry_trace: str = "",
+                 user_agent: str = ""):
 
         self.fcm_token = fcm_token
         self.accept = accept
