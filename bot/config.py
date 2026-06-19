@@ -1,6 +1,6 @@
 from pathlib import Path
 
-TOKEN = "8524044391:AAGMTNu3PQpUHrD5ARH2rT7VnD6r3g3AqvE"
+TOKEN = "TOKEN"
 
 # white_list_id = {
 #     1125142016: "Doston",
@@ -13,41 +13,10 @@ TOKEN = "8524044391:AAGMTNu3PQpUHrD5ARH2rT7VnD6r3g3AqvE"
 
 white_list_id = {
 
-    1125142016: {
-        "name": "Doston",
+    123456789: {
+        "name": "Abcde",
         "status": "Active",
         "hidden": False
-    },
-    6502028914: {
-        "name": "Amina",
-        "status": "Active",
-        "hidden": False
-    },
-    6494875059: {
-        "name": "Farzona",
-        "status": "Active",
-        "hidden": False
-    },
-    7355193913: {
-        "name": "Anis",
-        "status": "Inactive",
-        "hidden": False
-    },
-    1277811720: {
-        "name": "Azizjon",
-        "status": "Active",
-        "hidden": False
-    },
-    1633342686: {
-        "name": "Khursandbek",
-        "status": "Active",
-        "hidden": False
-    },
-    5104299484: {
-        "name": "Umarbek",
-        "status": "Active",
-        "hidden": False
-    }
 }
 
 #special_message = f'No need to explain how “cool" you are just because you’re on the whitelist and blah-blah-blah.\nEnjoy 🎯\n\nType "/info - for information"'
