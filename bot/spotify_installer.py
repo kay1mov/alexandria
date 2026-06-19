@@ -32,14 +32,12 @@ class SpotifyInstaller:
             save_path = f"spotify_downloads/song_{int(time.time())}.mp3"
 
         try:
-            # 1️⃣ check
             self.session.get(
                 self.check_url,
                 params={"url": track_link},
                 timeout=15
             )
 
-            # 2️⃣ download
             payload = {"url": track_link}
 
             with self.session.post(
